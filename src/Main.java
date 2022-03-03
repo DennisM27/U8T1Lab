@@ -33,5 +33,18 @@ public class Main {
         intArr2[2][1] = 6;
         System.out.println(Arrays.deepToString(intArr2));
         System.out.println(intArr1[0][2] + intArr2[2][0]);
+
+        // TEST CODE FOR average
+        int[][] testArr1 = {{1, 2, 3}, {4, 5, 6}};
+        System.out.println(FunWith2DArrays.average(testArr1));
+        int[][] testArr2 = {{1, 2, 3, 4}, {7, 8, 9, 10}};
+        System.out.println(FunWith2DArrays.average(testArr2));
+        int[][] testArr3 = {{4, 5, 2}, {1, 9, 7}, {8, 10, 13}};
+        System.out.println(FunWith2DArrays.average(testArr3));
+        int[][] testArr4 = {{4}, {7}, {8}, {2}};
+        System.out.println(FunWith2DArrays.average(testArr4));
+        int[][] testArr5 = {{4}};
+        System.out.println(FunWith2DArrays.average(testArr5));
+
     }
 }
